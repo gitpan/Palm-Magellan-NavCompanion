@@ -1,6 +1,7 @@
-# $Id: test_manifest,v 1.2 2004/08/29 19:46:44 comdog Exp $
+# $Id: test_manifest,v 1.3 2005/03/12 04:27:40 comdog Exp $
 compile.t
 pod.t
+pod_coverage.t
 prereq.t
 Load.t
 raw_records.t

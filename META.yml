@@ -1,11 +1,13 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Palm-Magellan-NavCompanion
-version:      0.50_02
+version:      0.50_03
 version_from: lib/NavCompanion.pm
 installdirs:  site
 requires:
+    Palm::Raw:                     0
+    Palm::StdAppInfo:              0
     Test::More:                    0
 
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.17
+generated_by: ExtUtils::MakeMaker version 6.23

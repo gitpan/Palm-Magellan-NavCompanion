@@ -1,4 +1,4 @@
-# $Id: Makefile.PL,v 1.2 2004/08/29 19:42:17 comdog Exp $
+# $Id: Makefile.PL,v 1.3 2005/03/12 04:27:40 comdog Exp $
 use ExtUtils::MakeMaker;
 
 eval { use Test::Manifest };
@@ -26,6 +26,8 @@ WriteMakefile
 
 	'PREREQ_PM'      => {
 		'Test::More'       => '0',
+		'Palm::Raw'        => '0',
+		'Palm::StdAppInfo' => '0',
 		},
 
 	'MAN3PODS'       => {
