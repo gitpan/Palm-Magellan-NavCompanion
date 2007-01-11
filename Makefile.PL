@@ -1,24 +1,13 @@
-# $Id: Makefile.PL,v 1.3 2005/03/12 04:27:40 comdog Exp $
+# $Id: Makefile.PL,v 1.4 2007/01/11 00:32:03 comdog Exp $
 use ExtUtils::MakeMaker;
 
-eval { use Test::Manifest };
-
-unless( $@ )
-	{
-	sub ExtUtils::MM_Any::test_via_harness
-		{
-		my($self, $perl, $tests) = @_;
-	
-		return qq|\t$perl "-MTest::Manifest" | .
-			   qq|"-e" "run_t_manifest(\$(TEST_VERBOSE), '\$(INST_LIB)', | .
-			   qq|'\$(INST_ARCHLIB)')"\n|;
-		}
-	}
+eval "use Test::Manifest 1.14";
 	
 WriteMakefile
 	(
 	'NAME'           => 'Palm::Magellan::NavCompanion',
 	'VERSION_FROM'   => 'lib/NavCompanion.pm',
+	'LICENSE'       => 'perl',
 
 	'PM'             => {
 		'lib/NavCompanion.pm'     => '$(INST_LIBDIR)/NavCompanion.pm',
@@ -26,8 +15,8 @@ WriteMakefile
 
 	'PREREQ_PM'      => {
 		'Test::More'       => '0',
-		'Palm::Raw'        => '0',
-		'Palm::StdAppInfo' => '0',
+		'Palm::Raw'			=> '0',
+		'Palm::StdAppInfo'	=> '0',
 		},
 
 	'MAN3PODS'       => {
