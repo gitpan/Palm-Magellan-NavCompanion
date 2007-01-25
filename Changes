@@ -1,4 +1,10 @@
-# $Id: Changes,v 1.5 2007/01/11 00:34:43 comdog Exp $
+# $Id: Changes,v 1.7 2007/01/25 19:35:01 comdog Exp $
+
+0.52 - Thu Jan 25 14:34:53 2007
+
+0.51 - Thu Jan 25 14:32:46 2007
+	* fix the last distro which had a bad pattern in MANIFEST.SKIP which
+	prevented MANIFEST from making it into the directory.
 
 0.51 - Wed Jan 10 18:34:57 2007
 	* bumped to a release version

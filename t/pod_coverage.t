@@ -1,7 +1,7 @@
-# $Id: pod_coverage.t,v 1.1 2005/03/12 04:27:40 comdog Exp $
+# $Id: pod_coverage.t,v 1.2 2007/01/25 19:32:34 comdog Exp $
 
 use Test::More;
-eval "use Test::Pod::Coverage";
+eval "use Test::Pod::Coverage 1.08";
 
 if( $@ )
 	{
