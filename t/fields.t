@@ -1,4 +1,4 @@
-# $Id: fields.t,v 1.1 2004/08/29 19:45:15 comdog Exp $
+# $Id: fields.t 1316 2004-08-29 19:45:15Z comdog $
 
 use Test::More tests => 6;
 

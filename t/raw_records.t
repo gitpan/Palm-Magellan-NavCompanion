@@ -1,4 +1,4 @@
-# $Id: raw_records.t,v 1.1 2004/08/29 19:45:36 comdog Exp $
+# $Id: raw_records.t 1317 2004-08-29 19:45:36Z comdog $
 
 use Test::More tests => 5;
 

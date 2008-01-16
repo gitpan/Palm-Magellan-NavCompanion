@@ -1,4 +1,4 @@
-# $Id: pod.t,v 1.1.1.1 2004/08/29 05:45:28 comdog Exp $
+# $Id: pod.t 1309 2004-08-29 05:45:27Z comdog $
 
 use Test::More;
 eval "use Test::Pod 1.00";

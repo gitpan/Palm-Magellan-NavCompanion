@@ -1,4 +1,4 @@
-# $Id: prereq.t,v 1.2 2004/08/29 19:46:24 comdog Exp $
+# $Id: prereq.t 1318 2004-08-29 19:46:24Z comdog $
 
 use Test::More;
 eval "use Test::Prereq 1.00";

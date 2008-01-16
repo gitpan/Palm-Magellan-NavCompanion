@@ -1,14 +1,16 @@
 --- #YAML:1.0
 name:                Palm-Magellan-NavCompanion
-version:             0.52
-abstract:            ~
+version:             0.53
+abstract:            access the Magellan GPS Companion waypoints file
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.31
+author:              
+    - brian d foy <bdfoy@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
     Palm::Raw:                     0
     Palm::StdAppInfo:              0
     Test::More:                    0
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
-    version: 1.2
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
