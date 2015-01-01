@@ -1,5 +1,3 @@
-# $Id: compile.t 1309 2004-08-29 05:45:27Z comdog $
-
 BEGIN { @classes = qw( Palm::Magellan::NavCompanion ) }
 
 use Test::More tests => scalar @classes;

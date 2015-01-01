@@ -1,5 +1,3 @@
-# $Id: raw_records.t 1317 2004-08-29 19:45:36Z comdog $
-
 use Test::More tests => 5;
 
 use_ok( 'Palm::Magellan::NavCompanion' );
